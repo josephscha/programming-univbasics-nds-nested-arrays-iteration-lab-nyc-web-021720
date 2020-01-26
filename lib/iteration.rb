@@ -9,8 +9,8 @@ def join_ingredients(src)
   new_array = []
   counter = 0 
   while counter < src.length do 
-  return "I love #{src[counter][0]} and #{src[counter][1]} on my pizza"
-  counter += 1
+    return "I love #{src[counter][0]} and #{src[counter][1]} on my pizza"
+    counter += 1
   end
 end
 
